@@ -15,7 +15,7 @@
 </template>
 <script setup lang="ts">
 withDefaults(defineProps<{
-  asc: boolean
+  asc?: boolean
 }>(), {
   asc: true
 })

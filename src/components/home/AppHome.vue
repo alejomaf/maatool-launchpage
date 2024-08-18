@@ -10,7 +10,9 @@
       <img src="@/assets/tool/program.webp" alt="MAATool" />
     </template>
   </TextAndPhoto>
+  <AppCharacteristics />
 </template>
 <script setup lang="ts">
 import TextAndPhoto from '@/components/text-and-photo/TextAndPhoto.vue'
+import AppCharacteristics from '@/components/home/AppCharacteristics.vue'
 </script>
